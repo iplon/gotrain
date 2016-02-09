@@ -41,15 +41,16 @@ export PATH=$PATH:/usr/local/go/bin
 ToBeContinued .....
 
 
-
+```
 mkdir C:\gotrain
 cd C:\gotrain
-set GOPATH=C:\gotrain
+set "GOPATH=%cd%"
 go get github.com/iplon/gotrain
 
 cd src\github.com\iplon\gotrain\cmd\L1
 go build
 .\L1
+```
 
 then start Liteide
 
